@@ -1,4 +1,4 @@
-package com.rd.mvvmshoppinglist.db
+package com.rd.mvvmshoppinglist.data.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
@@ -6,7 +6,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy.REPLACE
 import androidx.room.Query
-import com.rd.mvvmshoppinglist.ShoppingItem
+import com.rd.mvvmshoppinglist.data.db.entities.ShoppingItem
 
 @Dao
 interface ShoppingDao {
